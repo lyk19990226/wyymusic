@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网易云音乐</title>
+  <link rel="icon" href="https://lyk19990226.github.io/img/common/logo.jpg">
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/common.css">
+  <link rel="stylesheet" href="./CSS/header-top.css">
+</head>
+
+<body>
+
+
+  <!--  网易云头部样式  -->
+  <div class="top">
+    <div class="topbar wrapper_01">
+      <div class="bar-left">
+        <h1 class="logo">
+          <a href="#">网易云音乐</a>
+        </h1>
+        <ul class="m-nav">
+          <li>
+            <a href="#" class="active">
+              <em>发现音乐</em>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <em>我的音乐</em>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <em>关注</em>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <em>商城</em>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <em>音乐人</em>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <em>下载客户端</em>
+              <sup class="hot">&nbsp;</sup>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bar-right">
+        <div class="seach-right">
+          <div class="seach">
+            <input type="text" placeholder="音乐/视频/电台/用户">
+          </div>
+        </div>
+        <!-- <div class="seach-right">
+          <i></i>
+          <input type="text" id="seach">
+          <label for="seach" class="title-p">
+            <span>音乐/视频/电台/用户</span>
+          </label>
+        </div> -->
+        <div class="create">
+          <a href="#">创作者中心</a>
+        </div>
+        <div class="login">
+          <a href="#">登录</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 副导航栏实现  -->
+  <div class="top-nav">
+    <div class="nav wrapper_01">
+      <ul class="list">
+        <li><a href="#" class="item"><span class="active">推荐</span></a></li>
+        <li><a href="#" class="item"><span>排行榜</span></a></li>
+        <li><a href="#" class="item"><span>歌单<i class="white-icon"></i></span></a></li>
+        <li><a href="#" class="item"><span>主播电台</span></a></li>
+        <li><a href="#" class="item"><span>歌手</span></a></li>
+        <li><a href="#" class="item"><span>新碟上架</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- 轮播图模块实现 -->
+  <div class="ban">
+    <div class="ban-img wrapper_02">
+      <a href="#" class="btn-left">&lt;</a>
+      <a href="#" class="btn-right"></a>
+      <div class="img-item">
+        <ul class="img-list">
+          <li>
+            <a href="#" class="item"><img src="./images/109951167348387731.jpg" alt="水蒸气音乐图片"></a>
+          </li>
+          <li>
+            <a href="#" class="item"><img src="./images/109951167348387731.jpg" alt="水蒸气音乐图片"></a>
+          </li>
+          <li>
+            <a href="#" class="item"><img src="./images/109951167348387731.jpg" alt="水蒸气音乐图片"></a>
+          </li>
+        </ul>
+
+        <ul class="dots-list">
+          <li><a href="#" class="item active"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+        </ul>
+      </div>
+      <div class="download">
+        <a href="#" class="btn-download">下载客户端</a>
+        <p class="download-detail">PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 内容展示模块 -->
+  <div id="discover-module" class="wrapper_03">
+
+    <!-- 内容左边 -->
+    <div class="dc-l">
+      <!-- 热门推荐 -->
+      <div class="common-nav">
+        <div class="common-left">
+          <a href="#" class="common-title">热门推荐</a>
+          <div class="common-list">
+            <a href="#" class="item">华语</a>
+            <span class="line">|</span>
+            <a href="#" class="item">流行</a>
+            <span class="line">|</span>
+            <a href="#" class="item">摇滚</a>
+            <span class="line">|</span>
+            <a href="#" class="item">民谣</a>
+            <span class="line">|</span>
+            <a href="#" class="item">电子</a>
+          </div>
+        </div>
+        <div class="more">
+          <a href="#" class="item">更多</a>
+          <i class="icon-arrow"></i>
+        </div>
+      </div>
+      <ul class="hot-content">
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951167235207040.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">34万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#">“释怀吧，不要再执着于没有结果的事了”</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951167311919702.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">520万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#">没有什么是接受不了的，向前看就是了</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951166726930602.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">51万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#">“其实无论怎么选择，都会有遗憾的对吧”</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951167354092931.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">8545</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#" class="radio-station"> 刘畊宏，和那些年被杰伦“带火”的歌手</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951166889767357.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">45万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#">一些听了会开心快乐的歌</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951167355855089.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">1636</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#" class="radio-station"> 开始接单啦001-“秀人“之间有没有真友谊（上）</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951167285317254.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">435万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#">原神OST（收录至《佚落迁忘之岛》)</a>
+          </p>
+        </li>
+        <li class="item">
+          <div class="img-layout">
+            <img src="./images/hot-img/109951165943095382.jpg" alt="热门推荐图片">
+            <a class="img-h" href="#"></a>
+            <div class="bottom">
+              <div>
+                <span class="icon-hear"></span>
+                <span class="size">2162万</span>
+              </div>
+              <a class="icon-play" href="#"></a>
+            </div>
+          </div>
+          <p class="dec common-thide">
+            <a href="#" class="radio-station"> 顺其自然 (Been Through)</a>
+          </p>
+        </li>
+      </ul>
+
+      <div class="margin-br"></div>
+
+      <!-- 新碟上架 -->
+      <div class="common-nav">
+        <div class="common-left">
+          <a href="#" class="common-title">新碟上架</a>
+        </div>
+        <div class="more">
+          <a href="#" class="item">更多</a>
+          <i class="icon-arrow"></i>
+        </div>
+      </div>
+      <div class="n-disk">
+        <div class="inner">
+          <a href="#" class="click-left"></a>
+          <ul class="roller-flag">
+            <li>
+              <div class="flag-img">
+                <img src="./images/hot-img/109951167322582296.jpg" alt="碟片歌曲图片">
+                <a href="#" class="icon-play"></a>
+              </div>
+              <p class="song song-h f-thide"><a href="#">云还在唱歌</a></p>
+              <p class="song-name song-h f-thide"><a href="#">张杰</a></p>
+            </li>
+            <li>
+              <div class="flag-img">
+                <img src="./images/hot-img/109951167316379898.jpg" alt="碟片歌曲图片">
+                <a href="#" class="icon-play"></a>
+              </div>
+              <p class="song song-h f-thide"><a href="#">Nonfiction</a></p>
+              <p class="song-name song-h f-thide"><a href="#">浜崎あゆみ</a></p>
+            </li>
+            <li>
+              <div class="flag-img">
+                <img src="./images/hot-img/109951167255408684.jpg" alt="碟片歌曲图片">
+                <a href="#" class="icon-play"></a>
+              </div>
+              <p class="song song-h f-thide"><a href="#">めんどくさい</a></p>
+              <p class="song-name song-h f-thide"><a href="#">中島美嘉</a></p>
+            </li>
+            <li>
+              <div class="flag-img">
+                <img src="./images/hot-img/109951167309010859.jpg" alt="碟片歌曲图片">
+                <a href="#" class="icon-play"></a>
+              </div>
+              <p class="song song-h f-thide"><a href="#">望江公子：踏青</a></p>
+              <p class="song-name song-h f-thide"><a href="#">施鑫文月</a></p>
+            </li>
+            <li>
+              <div class="flag-img">
+                <img src="./images/hot-img/109951167289853830.jpg" alt="碟片歌曲图片">
+                <a href="#" class="icon-play"></a>
+              </div>
+              <p class="song song-h f-thide"><a href="#">Head In The Clouds Forever</a></p>
+              <p class="song-name song-h f-thide"><a href="#">88rising</a></p>
+            </li>
+          </ul>
+          <a href="#" class="click-right"></a>
+        </div>
+      </div>
+      <div class="margin-br"></div>
+      <!-- 榜单 -->
+      <div class="common-nav">
+        <div class="common-left">
+          <a href="#" class="common-title">榜单</a>
+        </div>
+        <div class="more">
+          <a href="#" class="item">更多</a>
+          <i class="icon-arrow"></i>
+        </div>
+      </div>
+      <div class="billboard">
+        <dl class="blk">
+          <dt class="bb-top">
+            <div class="bb-img">
+              <img src="./images/top1.jpg" alt="飙升榜">
+              <a href="#" class="cover"></a>
+            </div>
+            <div class="tit">
+              <a href="#" class="tit-h uline-a">
+                <h3 class="f-thide">飙升榜</h3>
+              </a>
+              <a href="#" class="tit-play icon-f"></a>
+              <a href="#" class="tit-plus icon-f"></a>
+            </div>
+          </dt>
+          <dd>
+            <ol>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">1</span>
+                  <a href="#" class="sing-nm">想自由</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">2</span>
+                  <a href="#" class="sing-nm">青春当歌</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">3</span>
+                  <a href="#" class="sing-nm">再次爱上你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">4</span>
+                  <a href="#" class="sing-nm">Bet On Me (Organic Version)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">5</span>
+                  <a href="#" class="sing-nm">勇 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">6</span>
+                  <a href="#" class="sing-nm">追寻你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">7</span>
+                  <a href="#" class="sing-nm">耍把戏</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">8</span>
+                  <a href="#" class="sing-nm">单车 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">9</span>
+                  <a href="#" class="sing-nm">独到</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">10</span>
+                  <a href="#" class="sing-nm">现在的我 (还在一个人过)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+            </ol>
+            <div class="more">
+              <a href="#" class="more-d uline-a">查看全部&gt;</a>
+            </div>
+          </dd>
+        </dl>
+        <dl class="blk">
+          <dt class="bb-top">
+            <div class="bb-img">
+              <img src="./images/top2.jpg" alt="新歌榜">
+              <a href="#" class="cover"></a>
+            </div>
+            <div class="tit">
+              <a href="#" class="tit-h uline-a">
+                <h3 class="f-thide">新歌榜</h3>
+              </a>
+              <a href="#" class="tit-play icon-f"></a>
+              <a href="#" class="tit-plus icon-f"></a>
+            </div>
+          </dt>
+          <dd>
+            <ol>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">1</span>
+                  <a href="#" class="sing-nm">想自由</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">2</span>
+                  <a href="#" class="sing-nm">青春当歌</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">3</span>
+                  <a href="#" class="sing-nm">再次爱上你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">4</span>
+                  <a href="#" class="sing-nm">Bet On Me (Organic Version)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">5</span>
+                  <a href="#" class="sing-nm">勇 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">6</span>
+                  <a href="#" class="sing-nm">追寻你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">7</span>
+                  <a href="#" class="sing-nm">耍把戏</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">8</span>
+                  <a href="#" class="sing-nm">单车 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">9</span>
+                  <a href="#" class="sing-nm">独到</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">10</span>
+                  <a href="#" class="sing-nm">现在的我 (还在一个人过)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+            </ol>
+            <div class="more">
+              <a href="#" class="more-d uline-a">查看全部&gt;</a>
+            </div>
+          </dd>
+        </dl>
+        <dl class="blk">
+          <dt class="bb-top">
+            <div class="bb-img">
+              <img src="./images/top3.jpg" alt="原创榜">
+              <a href="#" class="cover"></a>
+            </div>
+            <div class="tit">
+              <a href="#" class="tit-h uline-a">
+                <h3 class="f-thide">原创榜</h3>
+              </a>
+              <a href="#" class="tit-play icon-f"></a>
+              <a href="#" class="tit-plus icon-f"></a>
+            </div>
+          </dt>
+          <dd>
+            <ol>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">1</span>
+                  <a href="#" class="sing-nm">想自由</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">2</span>
+                  <a href="#" class="sing-nm">青春当歌</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top no-top-front">3</span>
+                  <a href="#" class="sing-nm">再次爱上你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">4</span>
+                  <a href="#" class="sing-nm">Bet On Me (Organic Version)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">5</span>
+                  <a href="#" class="sing-nm">勇 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">6</span>
+                  <a href="#" class="sing-nm">追寻你</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">7</span>
+                  <a href="#" class="sing-nm">耍把戏</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">8</span>
+                  <a href="#" class="sing-nm">单车 (Live)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">9</span>
+                  <a href="#" class="sing-nm">独到</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+              <li class="content-list">
+                <div class="top-name uline-a">
+                  <span class="no-top">10</span>
+                  <a href="#" class="sing-nm">现在的我 (还在一个人过)</a>
+                </div>
+                <div class="icon-list">
+                  <a href="#" class="play icon-dj"></a>
+                  <a href="#" class="icon-plus icon-dj"></a>
+                  <a href="#" class="icon-ct icon-dj"></a>
+                </div>
+              </li>
+            </ol>
+            <div class="more">
+              <a href="#" class="more-d uline-a">查看全部&gt;</a>
+            </div>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <!-- 内容右边 -->
+    <div class="dc-r">
+      <!-- 用户登录 -->
+      <div class="user-lg">
+        <p class="u-detail">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+        <a href="#" class="u-bt">用户登录</a>
+      </div>
+      <!-- 入驻歌手 -->
+      <div class="n-singer">
+        <h3 class="hot-common">
+          <span class="n-title">入驻歌手</span>
+          <a href="#" class="total">查看全部 ></a>
+        </h3>
+        <ul class="n-enter">
+          <li>
+            <a href="#" class="item">
+              <img src="./images/hot-img/109951165588539704.jpg" alt="歌手图片" class="img-song">
+              <div class="ifo">
+                <h4>
+                  <span class="nm f-thide">张惠妹aMEI</span>
+                </h4>
+                <p class="f-thide s-fc3">台湾歌手张惠妹</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item">
+              <img src="./images/hot-img/109951166047225823.jpg" alt="歌手图片" class="img-song">
+              <div class="ifo">
+                <h4>
+                  <span class="nm f-thide">Fine乐团</span>
+                </h4>
+                <p class="f-thide s-fc3">独立音乐人</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item">
+              <img src="./images/hot-img/109951162916034289.jpg" alt="歌手图片" class="img-song">
+              <div class="ifo">
+                <h4>
+                  <span class="nm f-thide">萬曉利</span>
+                </h4>
+                <p class="f-thide s-fc3">民谣歌手、中国现代民谣的代表人物之一</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item">
+              <img src="./images/hot-img/18806046882229308.jpg" alt="歌手图片" class="img-song">
+              <div class="ifo">
+                <h4>
+                  <span class="nm f-thide">音乐人赵雷</span>
+                </h4>
+                <p class="f-thide s-fc3">民谣歌手</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item">
+              <img src="./images/hot-img/109951166457235020.jpg" alt="歌手图片" class="img-song">
+              <div class="ifo">
+                <h4>
+                  <span class="nm f-thide ">王三溥</span>
+                </h4>
+                <p class="f-thide s-fc3">音乐人</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div>
+          <a href="#" class="n-btn">
+            <i>申请成为网易音乐人</i>
+          </a>
+        </div>
+      </div>
+
+      <!-- 热门主播 -->
+      <div class="hot-anchor">
+        <h3 class="hot-common">
+          <span class="n-title">热门主播</span>
+        </h3>
+        <ul class="n-hotdj">
+          <li>
+            <a href="#" class="cver">
+              <img src="./images/hot-img/1407374893913311.jpg" alt="热门主播图片">
+            </a>
+            <div class="info">
+              <p class="f-thide"><a href="#" class="info-n">陈立</a></p>
+              <p class="f-thide">心理学家、美食家陈立教授</p>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="cver">
+              <img src="./images/hot-img/109951164843970584.jpg" alt="热门主播图片">
+            </a>
+            <div class="info">
+              <p class="f-thide"><a href="#" class="info-n">刘维-Julius</a></p>
+              <p class="f-thide">歌手、播客节目《维维道来》主理人</p>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="cver">
+              <img src="./images/hot-img/109951166943043252.jpg" alt="热门主播图片">
+            </a>
+            <div class="info">
+              <p class="f-thide"><a href="#" class="info-n">莫非定律MoreFeel</a></p>
+              <p class="f-thide">男女双人全创作独立乐团</p>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="cver">
+              <img src="./images/hot-img/109951165825466770.jpg" alt="热门主播图片">
+            </a>
+            <div class="info">
+              <p class="f-thide"><a href="#" class="info-n">碎嘴许美达</a></p>
+              <p class="f-thide">脱口秀网络红人</p>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="cver">
+              <img src="./images/hot-img/109951163676573083.jpg" alt="热门主播图片">
+            </a>
+            <div class="info">
+              <p class="f-thide"><a href="#" class="info-n">银临Rachel</a></p>
+              <p class="f-thide">古风音乐人</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="line" style="height: 1px;background-color: #d1cbcb;"></div>
+
+  <!-- <div class="wrapper_02" style="height: 30px;background-color: pink;"></div> -->
+
+  <!-- 一个块级元素内的行内块级元素,我们可以通过先给块级元素设置行高为自身的高度,再给里面的行内块级元素设置行高为自身行内块的高度.可以实现垂直居中 -->
+  <!-- <div style="width: 100px;height: 100px;background-color: red;line-height: 100px;">
+    <a href="#"
+      style="width: 50px;height: 50px;background-color: pink;display: inline-block;line-height: 50px;text-align: center;">gfdsg
+    </a>
+  </div> -->
+  <style>
+    .box {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .item1 {
+      display: block;
+      background-color: red;
+    }
+
+    .play-left {
+      width: 66px;
+      background: url(./images/button2.png) right -428px;
+    }
+
+    .play-left .play {
+      display: block;
+      text-align: center;
+      color: #fff;
+      height: 31px;
+      line-height: 31px;
+      background: url(./images/button2.png) 0 -387px;
+    }
+
+    .play-left .play em {
+      display: inline-block;
+      position: relative;
+      top: 5px;
+      width: 20px;
+      height: 18px;
+      background: url(./images/button2.png) 0 -1622px;
+    }
+
+    .jia-right {
+      width: 31px;
+      background: url(./images/button2.png) 0 -1588px;
+    }
+  </style>
+  <div class="box">
+    <a href="#" class="play-left item1">
+      <i class="play">
+        <em></em>
+        播放
+      </i>
+    </a>
+    <a href="#" class="jia-right item1"></a>
+  </div>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  </div>
+</body>
+
+</html>
